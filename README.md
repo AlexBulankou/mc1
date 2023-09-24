@@ -21,3 +21,6 @@ sudo find ./mc1 -type d -exec chmod 775 {} \;
 sudo find ./mc1 -type f -exec chgrp evanpermissions {} \;
 sudo find ./mc1 -type f -exec chmod 775 {} \;
 
+### copy from host example
+scp /Users/alexbu/Downloads/KyrenLifesteal2-v1.0.jar alexb@bulankou.com:/home/alexb/src/github.com/ab/mc1/data/plugins
+

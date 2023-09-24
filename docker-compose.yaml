@@ -10,6 +10,8 @@ services:
       EULA: "TRUE"
       SEED: "-139003"
       mode: "survival"
+      TYPE: "BUKKIT"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
+      - ./plugins:/plugins
